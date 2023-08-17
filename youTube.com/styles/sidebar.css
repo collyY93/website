@@ -1,0 +1,36 @@
+.sidebar {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  position: fixed;
+  left: 0px;
+  top: 50px;
+  bottom: 0px;
+  width: 70px;
+}
+.homeDiv{
+    flex: 1;
+}
+.imageDiv{
+  display: flex;
+  justify-content: center;
+}
+.homeImage{
+  width: 20px;
+      
+}
+.subscriptionImage{
+  width: 26px;
+         
+}
+.imageDiv p{
+  font-size: 10px;
+}
+.shortsImage,
+.addImage{
+  width: 38px;
+}
+.castImage{
+  width: 50px;
+}
